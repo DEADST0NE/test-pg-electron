@@ -1,0 +1,17 @@
+@import "../../variables.scss";
+
+.home-page {
+  height: 100vh;
+  background: $background_main;
+
+  .home-control {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-table {
+    margin: 30px;
+  }
+}
